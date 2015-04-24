@@ -64,8 +64,6 @@ export MAVEN_OPTS="-Xmx2048m -XX:MaxPermSize=512m"
 export _JAVA_OPTIONS="-Xmx2g"
 
 setopt shwordsplit
-setopt PROMPT_SUBST
-export PROMPT='$FG[089][$(users|sed "s/ /\n/g"|sort|uniq|grep -v `whoami`|wc -l)] %(!.%{$fg_bold[red]%}.%{$fg_bold[green]%}%n@)%m %{$fg_bold[blue]%}%(!.%1~.%~) $(git_prompt_info)%#%{$reset_color%} '
 
 schedprompt() {
     emulate -L zsh
