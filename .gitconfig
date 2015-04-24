@@ -5,9 +5,9 @@
 [core]
     editor = vim
 [user]
-	name = Dionysis Zindros
-	email = dionyziz@gmail.com
-	signingkey = AFB046C7
+	name = Kostis Karantias
+	email = karantiaskostis@gmail.com
+	signingkey = 6D9B91BA
 [credential]
 	helper = cache --timeout=3600
 [diff]
