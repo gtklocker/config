@@ -179,3 +179,6 @@ set foldlevel=99
 " Split behavior
 set splitbelow
 set splitright
+
+" Exuberant ctags
+set tags=tags;~
